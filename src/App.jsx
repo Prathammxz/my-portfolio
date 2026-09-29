@@ -572,23 +572,23 @@ export default function App() {
 
   // ── Data ──────────────────────────────────────────────────────────────────
   const education = [
-    { degree: "MSc. IT (Data Analytics)", school: "Islington College", affil: "London Metropolitan University", period: "2026 – 2028", badge: null, color: C.indigo, logos: [{ src: "/Education/islington.png", alt: "Islington" }, { src: "/Education/LMU.png", alt: "LMU" }] },
-    { degree: "BSc. (Hons) Computing", school: "Itahari International College", affil: "London Metropolitan University", period: "2021 – 2024", color: C.violet, logos: [{ src: "/Education/iic.png", alt: "IIC" }, { src: "/Education/LMU.png", alt: "LMU" }] },
-    { degree: "SLC (+2) Science", school: "GEMS Institute of Higher Education", affil: "National Examination Board", period: "2018 – 2020", color: C.cyan, logos: [{ src: "/Education/GIHE.png", alt: "GIHE" }] },
-    { degree: "SEE", school: "GEMS School", affil: "National Examination Board", period: "2017", color: C.orange, logos: [{ src: "/Education/GEMS.png", alt: "GEMS" }] },
+    { degree: "MSc. IT (Data Analytics)", school: "Islington College", affil: "London Metropolitan University", period: "2026 – 2028", badge: null, color: C.indigo, logos: [{ src: "src/assets/public/Education/islington.png", alt: "Islington" }, { src: "src/assets/public/Education/LMU.png", alt: "LMU" }] },
+    { degree: "BSc. (Hons) Computing", school: "Itahari International College", affil: "London Metropolitan University", period: "2021 – 2024", color: C.violet, logos: [{ src: "src/assets/public/Education/iic.png", alt: "IIC" }, { src: "src/assets/public/Education/LMU.png", alt: "LMU" }] },
+    { degree: "SLC (+2) Science", school: "GEMS Institute of Higher Education", affil: "National Examination Board", period: "2018 – 2020", color: C.cyan, logos: [{ src: "src/assets/public/Education/GIHE.png", alt: "GIHE" }] },
+    { degree: "SEE", school: "GEMS School", affil: "National Examination Board", period: "2017", color: C.orange, logos: [{ src: "src/assets/public/Education/GEMS.png", alt: "GEMS" }] },
   ];
 
   const experience = [
-    { title: "Senior Academic Direction Supervisor", company: "ING Skill Academy", period: "2025 – Present", logo: "/Work/ING.png", color: C.indigo, desc: "Leading curriculum development, teacher training, and academic strategy. Focused on integrating technology with pedagogy to improve learning outcomes at scale." },
-    { title: "Academic Development & Delivery Officer", company: "ING Skill Academy", period: "2024 – 2025", logo: "/Work/ING.png", color: C.violet, desc: "Designed and delivered academic programs, coordinated content creation, and supported faculty in effective classroom delivery methodologies." },
-    { title: "Full Stack Intern", company: "Hunchha Digital Agency", period: "2022 – 2023", logo: "/Work/hunchha.png", color: C.orange, desc: "Developed full-stack web applications using the MERN stack. Built responsive user interfaces and implemented RESTful backend APIs for diverse client projects." },
+    { title: "Senior Academic Direction Supervisor", company: "ING Skill Academy", period: "2025 – Present", logo: "src/assets/public/Work/ING.png", color: C.indigo, desc: "Leading curriculum development, teacher training, and academic strategy. Focused on integrating technology with pedagogy to improve learning outcomes at scale." },
+    { title: "Academic Development & Delivery Officer", company: "ING Skill Academy", period: "2024 – 2025", logo: "src/assets/public/Work/ING.png", color: C.violet, desc: "Designed and delivered academic programs, coordinated content creation, and supported faculty in effective classroom delivery methodologies." },
+    { title: "Full Stack Intern", company: "Hunchha Digital Agency", period: "2022 – 2023", logo: "src/assets/public/Work/hunchha.png", color: C.orange, desc: "Developed full-stack web applications using the MERN stack. Built responsive user interfaces and implemented RESTful backend APIs for diverse client projects." },
   ];
 
   // const programmes = [
-  //   { shortName: "GPPC", name: "Global Professional Pathway Course", logo: "/Programmes/GPPC.png", role: "Programme Coordinator & Operations Lead", color: C.indigo, desc: "A specialised programme for high school graduates across AI & Data Science, Cybersecurity, Business & Digital Innovation, Animation, Software Development, and Finance.", tags: ["AI & Data Science", "Cybersecurity", "Business", "Operations"], link: "https://ingskill.com/global-professional-pathway-course" },
-  //   { shortName: "ROBO", name: "Nepal's First Industry-Connected Robotics", logo: "/Programmes/Robo.png", role: "Curriculum Designer & Content Developer", color: C.cyan, desc: "Nepal's first industry-connected robotics programme for young innovators, developed with leading robotics companies in China. Designed full curriculum and content.", tags: ["Robotics", "Curriculum Design", "STEM", "Coding"], link: "https://ingrobo.com/" },
-  //   { shortName: "CSFC", name: "Contemporary Skills Foundations Course", logo: "/Programmes/CSFC.png", role: "Operations Manager & AI Trainer", color: C.violet, desc: "A foundational computing programme. Managed end-to-end operations and delivered specialised AI training sessions covering tools, concepts, and real-world applications.", tags: ["AI Training", "Computer Science", "Operations"], link: null },
-  //   { shortName: "SEP / Skill Up", name: "Skill Enrichment Programme (now Skill Up)", logo: "/Programmes/SEP.png", role: "Head of Student Services & Operations", color: C.orange, desc: "Bridging academics and career readiness through hands-on learning. Led Student Services Department, managing student journeys and all programme operations.", tags: ["Student Services", "Operations", "Career Readiness"], link: "https://ingskill.com/skill-up" },
+  //   { shortName: "GPPC", name: "Global Professional Pathway Course", logo: "src/assets/public/Programmes/GPPC.png", role: "Programme Coordinator & Operations Lead", color: C.indigo, desc: "A specialised programme for high school graduates across AI & Data Science, Cybersecurity, Business & Digital Innovation, Animation, Software Development, and Finance.", tags: ["AI & Data Science", "Cybersecurity", "Business", "Operations"], link: "https://ingskill.com/global-professional-pathway-course" },
+  //   { shortName: "ROBO", name: "Nepal's First Industry-Connected Robotics", logo: "src/assets/public/Programmes/Robo.png", role: "Curriculum Designer & Content Developer", color: C.cyan, desc: "Nepal's first industry-connected robotics programme for young innovators, developed with leading robotics companies in China. Designed full curriculum and content.", tags: ["Robotics", "Curriculum Design", "STEM", "Coding"], link: "https://ingrobo.com/" },
+  //   { shortName: "CSFC", name: "Contemporary Skills Foundations Course", logo: "src/assets/public/Programmes/CSFC.png", role: "Operations Manager & AI Trainer", color: C.violet, desc: "A foundational computing programme. Managed end-to-end operations and delivered specialised AI training sessions covering tools, concepts, and real-world applications.", tags: ["AI Training", "Computer Science", "Operations"], link: null },
+  //   { shortName: "SEP / Skill Up", name: "Skill Enrichment Programme (now Skill Up)", logo: "src/assets/public/Programmes/SEP.png", role: "Head of Student Services & Operations", color: C.orange, desc: "Bridging academics and career readiness through hands-on learning. Led Student Services Department, managing student journeys and all programme operations.", tags: ["Student Services", "Operations", "Career Readiness"], link: "https://ingskill.com/skill-up" },
   // ];
 
   const skills = [
@@ -600,10 +600,10 @@ export default function App() {
   ];
 
   const gallery = [
-    { src: "Gallery/AI.mov", type: "video", caption: "AI Workshop — ING Skill Academy", color: C.indigo },
-    { src: "Gallery/SEP-Team.JPG", type: "image", caption: "SEP Team — Academic Initiative", color: C.violet },
-    { src: "Gallery/CS.MOV", type: "video", caption: "Computer Science Programme", color: C.cyan },
-    // { src: "Gallery/skillup.mp4", type: "video", caption: "Skill Up Programme", color: C.orange },
+    { src: "src/assets/public/Gallery/AI.mov", type: "video", caption: "AI Workshop — ING Skill Academy", color: C.indigo },
+    { src: "src/assets/public/Gallery/SEP-Team.JPG", type: "image", caption: "SEP Team — Academic Initiative", color: C.violet },
+    { src: "src/assets/public/Gallery/CS.MOV", type: "video", caption: "Computer Science Programme", color: C.cyan },
+    // { src: "src/assets/public/Gallery/skillup.mp4", type: "video", caption: "Skill Up Programme", color: C.orange },
   ];
 
   return (
@@ -803,7 +803,7 @@ export default function App() {
                   <div style={{ position: "absolute", top: "45%", right: -10, width: 8, height: 8, borderRadius: "50%", background: C.cyan, zIndex: 4, animation: "pulse 2s infinite" }} />
 
                   {/* Main photo — large, no border frame, photo overflows circle */}
-                  <img src="/me.png" alt="Pratham Neupane" style={{
+                  <img src="src/assets/public/me.png" alt="Pratham Neupane" style={{
                     position: "relative", zIndex: 2,
                     width: "100%", height: "100%",
                     objectFit: "contain", objectPosition: "bottom",
@@ -873,7 +873,7 @@ export default function App() {
           <div className="about-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }}>
             <Reveal delay={0.15} dir="right">
               <img
-                src="/about.png"
+                src="src/assets/public/about.png"
                 alt="Pratham Neupane"
                 style={{
                   width: "100%",
